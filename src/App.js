@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './components/Home'
-import Detail from './components/Detail'
+// import Detail from './components/Detail'
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,7 +17,7 @@ function App() {
       <div>
         <Switch>
           <Route path="/detail">
-            <Detail />
+            {/* <Detail /> */}
           </Route>
           <Route path="/">
             <Home />
