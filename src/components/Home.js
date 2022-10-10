@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import Header from './Header'
 
 function Home() {
-  const [appSettings, setAppSettings] = useState({});
+  const appSettings = {};
 
   return (
     <div className="App">
