@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 
 const Detail = () => {
 
-    const task = JSON.parse(localStorage.getItem("task"));
+    const task = {task:"12132",assignee:"mee", status:"opend" }
 
     return (
         <div className="">
